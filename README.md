@@ -14,3 +14,4 @@
   * Adapter (Object Adapter, Class Adapter)
   * Decorator
   * Facade
+  * Proxy
