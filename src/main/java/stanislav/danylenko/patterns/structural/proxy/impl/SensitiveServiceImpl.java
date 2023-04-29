@@ -1,6 +1,5 @@
 package stanislav.danylenko.patterns.structural.proxy.impl;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import lombok.extern.slf4j.Slf4j;
@@ -11,6 +10,8 @@ import stanislav.danylenko.patterns.structural.proxy.components.Store;
 @Slf4j
 public class SensitiveServiceImpl implements SensitiveService {
 
+    private static final String ACCESS_USER = "Access user: {}";
+
     private final Store values;
 
     public SensitiveServiceImpl(Store values) {
@@ -19,19 +20,19 @@ public class SensitiveServiceImpl implements SensitiveService {
 
     @Override
     public void create(AuthUser user, String value) {
-        log.info("Access user: {}", user.name());
+        log.info(ACCESS_USER, user.name());
         values.add(value);
     }
 
     @Override
     public void delete(AuthUser user, String value) {
-        log.info("Access user: {}", user.name());
+        log.info(ACCESS_USER, user.name());
         values.remove(value);
     }
 
     @Override
     public List<String> read(AuthUser user) {
-        log.info("Access user: {}", user.name());
+        log.info(ACCESS_USER, user.name());
         return values.get();
     }
 

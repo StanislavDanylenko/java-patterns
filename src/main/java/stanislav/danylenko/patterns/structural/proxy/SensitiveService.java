@@ -6,8 +6,8 @@ import stanislav.danylenko.patterns.structural.proxy.components.AuthUser;
 
 public interface SensitiveService {
 
-    void create(AuthUser user, String record);
-    void delete(AuthUser user, String record);
+    void create(AuthUser user, String value);
+    void delete(AuthUser user, String value);
     List<String> read(AuthUser user);
 
 }
