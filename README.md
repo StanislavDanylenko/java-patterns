@@ -3,14 +3,14 @@
 ### Available patterns:
 * Behavioral
   * Command
-  * Iterator
+  * Iterator (Custom Iterator, Java Iterator)
   * Observer
   * Strategy
 * Creational
   * Builder
-  * Factory
+  * Factory (Factory Method, Abstract Factory)
   * Singleton
 * Sructural
-  * Adapter
+  * Adapter (Object Adapter, Class Adapter)
   * Decorator
   * Facade
