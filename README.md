@@ -18,3 +18,4 @@
   * Proxy
   * Flyweight
   * Composite
+  * Bridge
