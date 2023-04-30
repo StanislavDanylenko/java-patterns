@@ -10,6 +10,7 @@
   * Builder
   * Factory (Factory Method, Abstract Factory)
   * Singleton
+  * Prototype
 * Sructural
   * Adapter (Object Adapter, Class Adapter)
   * Decorator
