@@ -7,6 +7,7 @@
   * Observer
   * Strategy
   * Chain of Responsibility
+  * Interpreter
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
