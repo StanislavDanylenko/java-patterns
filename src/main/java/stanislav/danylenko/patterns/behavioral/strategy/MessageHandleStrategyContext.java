@@ -1,6 +1,6 @@
 package stanislav.danylenko.patterns.behavioral.strategy;
 
-import java.util.HashMap;
+import java.util.EnumMap;
 import java.util.Map;
 
 import stanislav.danylenko.patterns.behavioral.strategy.obj.ActionMessage;
@@ -8,7 +8,8 @@ import stanislav.danylenko.patterns.behavioral.strategy.obj.MessageType;
 
 public class MessageHandleStrategyContext {
 
-    private final Map<MessageType, MessageHandleStrategy> strategies = new HashMap<>();
+    // can be static
+    private final Map<MessageType, MessageHandleStrategy> strategies = new EnumMap<>(MessageType.class);
 
     public MessageHandleStrategyContext(MessageHandleStrategy awsStrategy, MessageHandleStrategy k8sStrategy) {
         strategies.put(MessageType.AWS, awsStrategy);

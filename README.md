@@ -16,3 +16,4 @@
   * Decorator
   * Facade
   * Proxy
+  * Flyweight
