@@ -6,6 +6,7 @@
   * Iterator (Custom Iterator, Java Iterator)
   * Observer
   * Strategy
+  * Chain of Responsibility
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
