@@ -17,3 +17,4 @@
   * Facade
   * Proxy
   * Flyweight
+  * Composite
