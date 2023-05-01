@@ -12,6 +12,7 @@
   * Template method
   * Mediator
   * Visitor
+  * Memento
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
