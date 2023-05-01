@@ -11,6 +11,7 @@
   * State
   * Template method
   * Mediator
+  * Visitor
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
