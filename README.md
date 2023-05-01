@@ -10,6 +10,7 @@
   * Interpreter
   * State
   * Template method
+  * Mediator
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
