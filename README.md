@@ -9,6 +9,7 @@
   * Chain of Responsibility
   * Interpreter
   * State
+  * Template method
 * Creational
   * Builder
   * Factory (Factory Method, Abstract Factory)
